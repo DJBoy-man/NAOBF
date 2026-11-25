@@ -1,0 +1,26 @@
+{
+  "generator": "NAOBF prototype v0.1",
+  "seed": 20261014,
+  "sample_count": 8,
+  "image_dimensions_px": [
+    512,
+    512
+  ],
+  "bit_depth": 8,
+  "pixel_size_um": 0.5,
+  "camera_profile_is_example": true,
+  "labels": {
+    "semantic classes": {
+      "0": "background",
+      "1": "soma",
+      "2": "neurite"
+    }
+  },
+  "limitations": [
+    "procedural morphology; not extracted from real neuronal anatomy",
+    "image formation is an approximate weak-object brightfield rendering, not a full wave-optics model",
+    "no neural electrical activity-to-image coupling",
+    "synthetic labels are exact only for the generated procedural geometry",
+    "not validated against the user's camera or real cultures"
+  ]
+}

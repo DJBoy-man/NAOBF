@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+.venv_*/
+
+# Packaging / tooling
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated full datasets, models, and local run products
+output/
+outputs/
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.log
+*_local.json
+*_private.json
+
+# Microscopy / simulation source data (demo data is explicitly force-included)
+*.swc
+*.npy
+*.npz
+*.mat
+*.hoc
+*.mod
+*.dat
+*.csv.tmp
+*.tif
+*.tiff
+!demo/**/*.tif
+!demo/**/*.tiff
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.tmp
+*.bak

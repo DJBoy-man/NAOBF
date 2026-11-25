@@ -1,0 +1,21 @@
+{
+  "profile_name": "EXAMPLE ONLY - replace with the actual camera/microscope settings",
+  "profile_is_example": true,
+  "image_width_px": 512,
+  "image_height_px": 512,
+  "bit_depth": 8,
+  "pixel_size_um": 0.5,
+  "frame_rate_fps": 2.0,
+  "exposure_ms": 10.0,
+  "objective_magnification": 10.0,
+  "numerical_aperture": 0.25,
+  "illumination_mode": "transmitted_brightfield",
+  "illumination_level": 0.82,
+  "illumination_nonuniformity": 0.035,
+  "vignetting_strength": 0.035,
+  "optical_blur_sigma_um": 0.65,
+  "defocus_halo_strength": 0.045,
+  "shot_noise_photons": 3200,
+  "read_noise_fraction": 0.004,
+  "supersampling": 3
+}

@@ -1,0 +1,9 @@
+{
+  "image_count": 8,
+  "valid_pairs": 8,
+  "error_count": 0,
+  "errors": [],
+  "overall_soma_fraction": 0.052626609802246094,
+  "overall_neurite_fraction": 0.08086204528808594,
+  "warning": "Dataset checks confirm file/label consistency only; they do not validate biological or optical realism."
+}
